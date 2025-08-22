@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Countdown Timer (MV3)",
+    "version": "1.0",
+    "description": "A Chrome extension countdown timer that continues running even if the popup is closed.",
+    "permissions": [
+      "notifications",
+      "alarms",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/i1.png",
+        "48": "icons/i2.png",
+        "128": "icons/i3.png"
+      }
+    }
+  }
+  

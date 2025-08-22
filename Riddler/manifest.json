@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Riddle Extension",
+    "version": "1.0",
+    "description": "Fetch a riddle, type an answer, or request a pass to show the answer. Keeps a temporary score.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Riddle Extension"
+    },
+    "icons": {
+      "16": "icons/i1.png",
+      "48": "icons/i2.png",
+      "128": "icons/i3.png"
+    },
+    "permissions": [
+      "storage"
+    ],
+    "host_permissions": [
+      "https://api.api-ninjas.com/*"
+    ]
+  }
+  

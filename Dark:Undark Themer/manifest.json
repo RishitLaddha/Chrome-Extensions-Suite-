@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Dark/Un-Dark Themer",
+    "version": "1.0",
+    "description": "Toggle dark/light mode for the current page",
+    "icons": {
+      "16": "icons/icons.png",
+      "48": "icons/icons2.png",
+      "128": "icons/icons3.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icons.png",
+        "48": "icons/icons2.png",
+        "128": "icons/icons3.png"
+      }
+    }
+  }
+  

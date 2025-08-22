@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "To Do List Tracker",
+    "version": "1.0",
+    "description": "Track your tasks with deadlines. Mark tasks as completed (greyed out) or incomplete (red).",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/i1.png",
+        "48": "icons/i2.png",
+        "128": "icons/i3.png"
+      }
+    },
+    "icons": {
+      "16": "icons/i1.png",
+      "48": "icons/i2.png",
+      "128": "icons/i3.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
+  

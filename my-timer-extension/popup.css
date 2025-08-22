@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#timeInput {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#timeDisplay {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
